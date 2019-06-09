@@ -12,7 +12,7 @@ import logo from "../images/logo-black.png"
 
 const IndexPage = () => (
   <Layout headerType="transparent">
-    <SEO title="Home" />
+    <SEO title="RCCG Tower of David" />
     <section className="bg-slider-1 h-screen w-screen -mt-16 flex flex-col" >
       <div className="flex-1 flex justify-center items-center">
         <div className="text-white text-center z-10">
