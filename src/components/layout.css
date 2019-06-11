@@ -47,9 +47,27 @@ position: relative;
 /* @apply bg-gray-200; */
 }
 
+.section-background::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+/* @apply bg-gray-200; */
+}
+
 .straight::before {
 transform: skewY(0deg);
 @apply bg-gray-100;
+} 
+.before-black::before {
+@apply bg-black;
+} 
+.before-gray::before {
+@apply bg-gray-200;
 } 
 
 
