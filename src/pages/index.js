@@ -191,7 +191,7 @@ const IndexPage = () => (
     {/* app showcase */}
 
     <section className="section-background-gray straight ">
-      <div className=" container m-auto mb-64">
+      <div className=" container m-auto mb-32">
         <div className="h-64 mt-4 pt-20 flex justify-between items-center">
         <div className="w-1/3 h-full">
           <h4 className="text-xl">
